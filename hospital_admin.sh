@@ -17,3 +17,8 @@ verify_security() {
     ls -la active_logs
     echo "Verification complete."
 }
+
+# Run security functions
+echo "Running security checks..."
+secure_data
+verify_security

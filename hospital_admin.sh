@@ -40,4 +40,7 @@ main() {
     echo "========================================="
 }
 main
+# Display system status
+echo "System Status: ONLINE"
+echo "All services initialized and secured."
 

@@ -22,3 +22,22 @@ verify_security() {
 echo "Running security checks..."
 secure_data
 verify_security
+# Member 3 - The Orchestrator
+main() {
+    echo "========================================="
+    echo "   KNH System Initialization Starting..."
+    echo "========================================="
+    echo ""
+    echo "[Step 1] Initializing system directories..."
+    initialize_system
+    echo ""
+    echo "[Step 2] Securing data environment..."
+    secure_data
+    echo ""
+    echo "========================================="
+    echo "   System Environment Secured"
+    echo "   Date: $(date)"
+    echo "========================================="
+}
+main
+

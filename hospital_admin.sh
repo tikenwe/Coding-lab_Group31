@@ -10,3 +10,10 @@ secure_data() {
     ls -l | grep active_logs
     echo "Data security complete."
 }
+
+# Verify permissions are correctly set
+verify_security() {
+    echo "Verifying security settings..."
+    ls -la active_logs
+    echo "Verification complete."
+}

@@ -1,31 +1,12 @@
-#!/bin/bash
+# Member 2 - The Security Lead
+# secure_data() - Protects active_logs directory
 
-# Member 1 - The Architect
-# initialize_system() - Creates required directories
+secure_data() {
+    echo "Securing hospital data..."
 
-initialize_system() {
-    echo "Initializing system environment..."
+    chmod 700 active_logs
+    echo "Permissions set: only owner can read and write."
 
-    if [ ! -d "active_logs" ]; then
-        mkdir active_logs
-        echo "Creating active_logs directory..."
-    else
-        echo "active_logs already exists."
-    fi
-
-    if [ ! -d "archived_logs" ]; then
-        mkdir archived_logs
-        echo "Creating archived_logs directory..."
-    else
-        echo "archived_logs already exists."
-    fi
-
-    if [ ! -d "reports" ]; then
-        mkdir reports
-        echo "Creating reports directory..."
-    else
-        echo "reports already exists."
-    fi
-
-    echo "System initialization complete."
+    ls -l | grep active_logs
+    echo "Data security complete."
 }

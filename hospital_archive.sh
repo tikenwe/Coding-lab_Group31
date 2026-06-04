@@ -31,3 +31,12 @@ if [ -f "active_logs/water_usage_log.log" ]; then
 else
     echo "No water usage log found."
 fi
+
+# Recreate empty log files so Python engine can continue
+echo "Recreating empty log files..."
+touch active_logs/heart_rate_log.log
+touch active_logs/temperature_log.log
+touch active_logs/water_usage_log.log
+echo "Empty log files recreated."
+echo "Archive process complete at $(date)"
+

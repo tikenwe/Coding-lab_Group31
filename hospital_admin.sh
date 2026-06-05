@@ -37,6 +37,7 @@ secure_data() {
     echo "Permissions updated:"
     ls -ld active_logs
 }
+# Member 3 - The Orchestrator
 # Execution logic calling The Security Lead & The Orchestrator
 initialize_system
 secure_data

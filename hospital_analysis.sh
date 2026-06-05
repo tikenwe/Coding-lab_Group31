@@ -17,6 +17,7 @@ process_vitals
 echo "Clinical analysis complete at $(date)"
 
 # Member 6 - Facility Auditor
+# Calculates average water usage for ICU_WATER_RESERVE device
 water_audit() {
 echo "=== ICU Water Usage Report ==="    
 echo "Auditing ICU Water Reserve..."

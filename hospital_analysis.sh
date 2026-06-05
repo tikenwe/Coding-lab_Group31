@@ -20,3 +20,8 @@ process_vitals() {
 
     echo "Critical vitals saved to reports/critical_alerts.txt"
 }
+
+# Run the function
+echo "Running vitals analysis..."
+process_vitals
+echo "Clinical analysis complete at $(date)"

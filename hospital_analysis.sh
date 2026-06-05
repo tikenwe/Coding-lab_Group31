@@ -18,7 +18,8 @@ echo "Clinical analysis complete at $(date)"
 
 # Member 6 - Facility Auditor
 water_audit() {
-    echo "Auditing ICU Water Reserve..."
+echo "=== ICU Water Usage Report ==="    
+echo "Auditing ICU Water Reserve..."
     awk -F '|' 'BEGIN {sum=0; count=0} 
     /ICU_WATER_RESERVE/ {sum+=$3; count++} 
     END {if (count > 0) printf "Average ICU Water Usage: %.2f L/min\n", sum/count; 

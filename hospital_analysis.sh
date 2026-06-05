@@ -25,6 +25,7 @@ echo "Auditing ICU Water Reserve..."
     /ICU_WATER_RESERVE/ {sum+=$3; count++} 
     END {if (count > 0) printf "Average ICU Water Usage: %.2f L/min\n", sum/count; 
     else print "No water data recorded yet."}' active_logs/water_usage_log.log
-echo "Water audit complete at $(date)"}
+echo "Water audit complete at $(date)"
+}
 
 water_audit

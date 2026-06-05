@@ -29,3 +29,15 @@ initialize_system() {
 
     echo "System initialization complete."
 }
+# Member 2 - The Security Lead & The Orchestrator
+# secure_data() - Locks down permissions
+secure_data() {
+    echo "Securing active_logs directory..."
+    chmod 700 active_logs
+    echo "Permissions updated:"
+    ls -ld active_logs
+}
+# Execution logic calling The Security Lead & The Orchestrator
+initialize_system
+secure_data
+echo "System Environment Secured - $(date)"

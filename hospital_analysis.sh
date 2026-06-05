@@ -8,6 +8,7 @@ process_vitals() {
     grep "CRITICAL" active_logs/heart_rate.log active_logs/temperature.log 2>/dev/null | awk -F',' '{print $1, $2, $3}' > reports/critical_alerts.txt
     echo "Critical alerts saved to reports/critical_alerts.txt"
 }
+
 # Member 6 - Facility Auditor
 # water_audit() - Calculates ICU water usage average
 water_audit() {

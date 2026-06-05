@@ -8,12 +8,18 @@ This repository contains the core automation and analytical infrastructure for m
 * **Course Assignment:** Group Coding Lab (DevOps Infrastructure & Security)
 
 ## Member Roles & Responsibilities
-* **Member 1 (The Architect):** System initialization and directory management (`hospital_admin.sh`).
-* **Member 2 (The Security Lead):** System hardening, file locking, and standard access permission control.
-* **Member 3 (The Orchestrator):** Main process execution wrapper and log diagnostics.
-* **Member 4 (The Archivist):** Log rotation and data continuity automation (`hospital_archive.sh`).
-* **Member 5 (Clinical Analyst):** Core data processing and critical alert extraction (`hospital_analysis.sh`).
-* **Member 6 (Facility Auditor):** Medical facility resource consumption tracking and statistics.
+* **Member 1 (The Architect)-
+* TESS:** System initialization and directory management (`hospital_admin.sh`).
+* **Member 2 (The Security Lead)-
+* FAVOUR:** System hardening, file locking, and standard access permission control.
+* **Member 3 (The Orchestrator)-
+* BEMNET:** Main process execution wrapper and log diagnostics.
+* **Member 4 (The Archivist)-
+* OCHE:** Log rotation and data continuity automation (`hospital_archive.sh`).
+* **Member 5 (Clinical Analyst)-
+* TESS:** Core data processing and critical alert extraction (`hospital_analysis.sh`).
+* **Member 6 (Facility Auditor)-
+* TESS:** Medical facility resource consumption tracking and statistics.
 
 ## Project Structure
 * `hospital_system.py`: Data Generation Simulator.

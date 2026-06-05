@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Member 2 - The Archivist
+# Member 4 - The Archivist
 # rotate_logs() - Moves files to archives and recreates clean templates
 rotate_logs() {
     TIMESTAMP=$(date +%Y%m%d_%H%M)

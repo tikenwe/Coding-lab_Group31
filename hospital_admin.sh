@@ -29,6 +29,7 @@ initialize_system() {
 
     echo "System initialization complete."
 }
+
 # Member 2 - The Security Lead & The Orchestrator
 # secure_data() - Locks down permissions
 secure_data() {
@@ -37,6 +38,7 @@ secure_data() {
     echo "Permissions updated:"
     ls -ld active_logs
 }
+
 # Member 3 - The Orchestrator
 # Execution logic calling The Security Lead & The Orchestrator
 initialize_system
